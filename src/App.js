@@ -9,6 +9,7 @@ class App extends React.Component {
     </>
   }
   ChangeText=()=>{
+    console.log("ChangeText()");
     this.setState({message:"Its SamZayd"})
   }
 }
