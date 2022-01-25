@@ -34,7 +34,7 @@ In this directory you can find all the created apps program inside [Practice Fil
    
    → We can easily update or change any of these components without disturbing the rest of the application.
 
-      #                                                           **React Component Types?**
+      #**React Component Types?**
       
       **_Functional Component_**                                                                       
 
@@ -52,14 +52,45 @@ In this directory you can find all the created apps program inside [Practice Fil
                                                                                                       
    
    
-   
+
+# **React Props & State**   
+
+      React Components are controlled either by Props or States.
+
+      React Props and State are two important components.
 
 2. # [**`Props`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Props)
    
-   
+         "Props'' is a special keyword in React, which stands for properties and is being used for passing data from one component to another. 
+         But the important part here is that data with props are being passed in a unidirectional flow.
+
+         in a React component, props are variables passed to it by its parent component.
+
+         Props help components communicate with one another. Props nothing but properties
+
+
+
    
 3. # [**`State`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
 
+         Every comp either fun/class maintains its own data. Every comp has its own data.
 
+         If you want to maintain, own data required.
+         
+ 
 
+  **State of the Component**
+
+   - State of a component can be used two ways:
+
+         1. Class Component (this.state, this.setState())
+
+         2. Function (React Hooks)
+
+         - Whenever state changes, the component automatically re-renders
+
+         - inside a class, state is always an object
+
+         - in a class component, don't mutable the state directly, use setState ()
+   
 
