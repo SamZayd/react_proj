@@ -79,9 +79,9 @@ In this directory you can find all the created apps program inside [Practice Fil
          
  
 
-  **State of the Component**
+      **State of the Component**
 
-   - State of a component can be used two ways:
+      - State of a component can be used two ways:
 
          1. Class Component (this.state, this.setState())
 
