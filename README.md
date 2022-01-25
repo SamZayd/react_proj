@@ -28,5 +28,6 @@ In this directory you can find all the created apps program inside [Practice Fil
    
    
 3. [`State`](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
-[Imgur](https://i.imgur.com/TO270rB.gifv)
+
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/95088107/150997286-286acbd9-77ee-4bf9-8bde-b712f09510be.gif)
