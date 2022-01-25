@@ -83,14 +83,14 @@ In this directory you can find all the created apps program inside [Practice Fil
 
       - State of a component can be used two ways:
 
-         1. Class Component (this.state, this.setState())
+            1. Class Component (this.state, this.setState())
 
-         2. Function (React Hooks)
+            2. Function (React Hooks)
 
-         - Whenever state changes, the component automatically re-renders
+            - Whenever state changes, the component automatically re-renders
 
-         - inside a class, state is always an object
+            - inside a class, state is always an object
 
-         - in a class component, don't mutable the state directly, use setState ()
-   
+            - in a class component, don't mutable the state directly, use setState ()
+
 
