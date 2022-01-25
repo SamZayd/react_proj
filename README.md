@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 In this directory you can find all the created apps program inside [Practice File](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files).
 
-1. #[**`Component`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Component) 
+1. # [**`Component`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Component) 
    
    
    If you build like components, we keep our code manageable. If we change the component, we will update that component only. 
@@ -34,7 +34,7 @@ In this directory you can find all the created apps program inside [Practice Fil
    
    → We can easily update or change any of these components without disturbing the rest of the application.
 
-                                                         ## **React Component Types?**
+      #                                                           **React Component Types?**
       
       **_Functional Component_**                                                                       
 
@@ -58,7 +58,7 @@ In this directory you can find all the created apps program inside [Practice Fil
    
    
    
-3. #[**`State`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
+3. # [**`State`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
 
 
 
