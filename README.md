@@ -61,12 +61,14 @@ In this directory you can find all the created apps program inside [Practice Fil
 
 2. # [**`Props`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Props)
    
-         "Props'' is a special keyword in React, which stands for properties and is being used for passing data from one component to another. 
+         "Props" is a special keyword in React, which stands for properties and is 
+         being used for passing data from one component to another.
+         
          But the important part here is that data with props are being passed in a unidirectional flow.
 
          in a React component, props are variables passed to it by its parent component.
 
-         Props help components communicate with one another. Props nothing but properties
+         Props help components communicate with one another. Props nothing but **properties**
 
 
 
