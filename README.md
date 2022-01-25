@@ -28,5 +28,4 @@ In this directory you can find all the created apps program inside [Practice Fil
    
    
 3. [`State`](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
-4. 
-![hook](https://i.imgur.com/TO270rB.gifv)
+[Imgur](https://i.imgur.com/TO270rB.gifv)
