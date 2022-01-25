@@ -1,7 +1,5 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -10,6 +8,8 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/95088107/150997286-286acbd9-77ee-4bf9-8bde-b712f09510be.gif)
 
 ## `RoadMap for react_proj`
 
@@ -30,4 +30,4 @@ In this directory you can find all the created apps program inside [Practice Fil
 3. [`State`](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
 
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/95088107/150997286-286acbd9-77ee-4bf9-8bde-b712f09510be.gif)
+
