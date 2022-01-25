@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 In this directory you can find all the created apps program inside [Practice File](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files).
 
-1. [#**`Component`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Component) 
+1. #[**`Component`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Component) 
    
    
    If you build like components, we keep our code manageable. If we change the component, we will update that component only. 
@@ -34,33 +34,32 @@ In this directory you can find all the created apps program inside [Practice Fil
    
    → We can easily update or change any of these components without disturbing the rest of the application.
 
-                                                              ###**React Component Types?**
+                                                         ## **React Component Types?**
       
-      #**_Functional Component_**                                                                       #**_Class Component_**
+      **_Functional Component_**                                                                       
 
-      - Functional Components should return one and only element is JSX.                           - Should extends React.Component
+         - Functional Components should return one and only element is JSX.                           
 
-      - export Default <Component>                                                                 - minimum one method: render()
+         - export Default <Component>                                                                
    
-                                                                                                   - render () method should return one and only element i.e., JSX.
+      **_Class Component_**                            
+   
+         - Should extends React.Component
+   
+         - minimum one method: render()
+   
+         - render () method should return one and only element i.e., JSX.
                                                                                                       
    
    
    
 
-2. [#**`Props`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Props)
+2. # [**`Props`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Props)
    
    
    
-3. [#**`State`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
+3. #[**`State`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
 
 
 
-
-
-
-
-
-
-Note: props should be accessed as: this. props
 
