@@ -34,7 +34,7 @@ In this directory you can find all the created apps program inside [Practice Fil
    
    → We can easily update or change any of these components without disturbing the rest of the application.
 
-      #**React Component Types?**
+      # **React Component Types?**
       
       **_Functional Component_**                                                                       
 
