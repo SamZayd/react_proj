@@ -1,7 +1,5 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,60 +9,90 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/95088107/150997286-286acbd9-77ee-4bf9-8bde-b712f09510be.gif)
 
-### `npm test`
+### `RoadMap for react_proj`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In this directory you can find all the created apps program inside [Practice File](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files).
 
-### `npm run build`
+1. # [**`Component`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Component) 
+   
+   
+   If you build like components, we keep our code manageable. If we change the component, we will update that component only. 
+   We don't want to find the code of the entire webpage.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   And we also reuse components. Write code once and easily re-use no of times.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   
+   → React - Components represent part of the UI.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   → In React everything is a component.
 
-### `npm run eject`
+   → Whatever is visible on a web page or browser, all those things are components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   → All these components are independent of one another. 
+   
+   → We can easily update or change any of these components without disturbing the rest of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      # **React Component Types?**
+      
+      **_Functional Component_**                                                                       
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+         - Functional Components should return one and only element is JSX.                           
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+         - export Default <Component>                                                                
+   
+      **_Class Component_**                            
+   
+         - Should extends React.Component
+   
+         - minimum one method: render()
+   
+         - render () method should return one and only element i.e., JSX.
+                                                                                                      
+   
+   
 
-## Learn More
+# **React Props & State**   
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+      React Components are controlled either by Props or States.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+      React Props and State are two important components.
 
-### Code Splitting
+2. # [**`Props`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/Props)
+   
+         "Props" is a special keyword in React, which stands for properties and is 
+         being used for passing data from one component to another.
+         
+         But the important part here is that data with props are being passed in a unidirectional flow.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+         in a React component, props are variables passed to it by its parent component.
 
-### Analyzing the Bundle Size
+         Props help components communicate with one another. Props nothing but **properties**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   
+3. # [**`State`**](https://github.com/SamZayd/react_proj/tree/master/Practice%20Files/State)   
 
-### Advanced Configuration
+         Every comp either fun/class maintains its own data. Every comp has its own data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+         If you want to maintain, own data required.
+         
+ 
 
-### Deployment
+      **State of the Component**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+      - State of a component can be used two ways:
 
-### `npm run build` fails to minify
+            1. Class Component (this.state, this.setState())
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+            2. Function (React Hooks)
+
+            - Whenever state changes, the component automatically re-renders
+
+            - inside a class, state is always an object
+
+            - in a class component, don't mutable the state directly, use setState ()
+
+
