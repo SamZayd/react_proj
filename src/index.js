@@ -1,4 +1,4 @@
 import ReactDOM from 'react-dom'
-import App from "./App"
+import Hike from "./Hike"
 
-ReactDOM.render(<App/>,document.getElementById('two'))
+ReactDOM.render(<Hike/>,document.getElementById('two'))
