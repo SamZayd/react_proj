@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom'
-import Login from "./Login"
+import App from './App'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
-ReactDOM.render(<Login/>,document.getElementById('two'))
+ReactDOM.render(<App />, document.getElementById('root'))
