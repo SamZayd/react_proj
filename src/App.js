@@ -1,5 +1,5 @@
 import React from 'react'
-import home from './Home/home'
+import Home from './Home/Home'
 import Navbar from './Navbar/Navbar'
 import SMS from './SMS/SMS'
 import User from './User/User'
@@ -10,7 +10,7 @@ class App extends React.Component {
             <Router>
                 <Navbar/>
                 <Switch>
-                  <Route path="/home" component={home} />  
+                  <Route path="/home" component={Home} />  
                   <Route path="/user" component={User} />
                   <Route path="/sms" component={SMS} />
                 </Switch>
