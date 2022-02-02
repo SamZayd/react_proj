@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import back from './BG.png'
+import TextAnimation from './animation/TextAnimation';
 
 class Home extends Component {
-
-  state={ani : <div style={{fontSize:"60px"}}>React Routing using Axios</div>}
-  
-  anima=()=>{
-    this.setState({ani:<div style={{fontSize:"40px"}}>React Routing Axios</div>})
-    
-  }
   // caught(){
   //   const interval =setInterval(()=>{
   //     const current = new Date();
@@ -30,8 +24,8 @@ class Home extends Component {
                          width: '100vw',
                          height: '88vh'}}>
 
-              <div className='container text-light' onClick={this.anima} style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '50vh'}}>
-                  {this.state.ani}   
+              <div className='container text-light' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"50%", fontSize:"60px"}}>
+                  <TextAnimation/>
               </div>
               <div className='conatiner'>
                   <div className=''>10</div>   

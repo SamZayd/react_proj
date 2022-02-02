@@ -5,7 +5,13 @@ class Navbar extends Component {
     findText=(event)=>{
         console.log(User);
         event.preventDefault()
-    } 
+    }
+
+    active(name){
+        //when a page is active change its className to (nav-link active)
+        console.log(name) 
+    }
+
     render() {
         return <>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -14,16 +20,16 @@ class Navbar extends Component {
                         <div className=" navbar navbar-collapse">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link to="user" className="nav-link active"> User</Link>
+                                    <Link to="user" className="nav-link"  > User</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="sms" className="nav-link">SMS</Link>                                    
+                                    <Link to="sms" className="nav-link" name="smsl" onClick={this.active}>Message</Link>                                    
                                 </li>
                                 <li className="nav-item">
-                                    <a href="product" className="nav-link disabled">Product</a>
+                                    <a href="product" className="nav-link disabled" onClick={this.active}>Product</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="contact" className="nav-link disabled">Contact</Link>
+                                    <Link to="contact" className="nav-link disabled" onClick={this.active}>Contact</Link>
                                 </li>
                             </ul>
                             <form className="d-flex">

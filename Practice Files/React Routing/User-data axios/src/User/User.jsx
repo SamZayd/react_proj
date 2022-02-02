@@ -17,7 +17,7 @@ class User extends Component {
     render() {
         return (
             <>
-                <div className="conatiner mt-2 text-light bg-dark ">
+                <div className="conatiner bg-dark mt-2 text-light">
                     <h1 className='ml-5'>Application Users Data</h1>
                 </div>
                 <div className="container">
