@@ -3,7 +3,9 @@ import Home from './Home/Home'
 import Navbar from './Navbar/Navbar'
 import SMS from './SMS/SMS'
 import UserApp from './User/UserApp'
+import TodoApp from './To-do/TodoApp'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
 class App extends React.Component {
     render() {
         return <>
@@ -14,6 +16,7 @@ class App extends React.Component {
                   <Route path="/home" component={Home} />  
                   <Route path="/userapp" component={UserApp} />
                   <Route path="/sms" component={SMS} />
+                  <Route path="/todo" component={TodoApp}/>
                 </Switch>
             </Router>
         </>

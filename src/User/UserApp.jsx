@@ -34,7 +34,7 @@ class UserApp extends Component {
                             }
 
                         </div>
-                        <div className="col-md-3 mr-1">
+                        <div className="col-md-3">
                             {
                                 Object.keys(this.state.selectedContact).length > 0 ? <> <Profile details={this.state.selectedContact} /></> : null
                             }

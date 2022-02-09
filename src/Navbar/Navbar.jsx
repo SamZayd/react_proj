@@ -14,13 +14,13 @@ class Navbar extends Component {
                                     <Link to="userapp" className="nav-link"> User</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="sms" className="nav-link" name="smsl" onClick={this.active}>Message</Link>                                    
+                                    <Link to="sms" className="nav-link" name="smsl">Message</Link>                                    
                                 </li>
                                 <li className="nav-item">
-                                    <a href="product" className="nav-link disabled" onClick={this.active}>Product</a>
+                                    <a href="todo" className="nav-link">To-Do</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="contact" className="nav-link disabled" onClick={this.active}>Contact</Link>
+                                    <Link to="contact" className="nav-link disabled">Contact</Link>
                                 </li>
                             </ul>
                             <form className="d-flex">
