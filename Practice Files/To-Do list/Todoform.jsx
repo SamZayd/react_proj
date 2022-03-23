@@ -168,13 +168,13 @@ const Todoform = ()=>{
                         <div className='mb-3'>
                             <div className=' d-md-flex align-items-center radio-status'>
                                 <p className='m-0'>Task Status:</p> 
-                              <div>  <input type='radio' name='status' className='form-check-input' className="ml-8" value='Planned'
+                              <div>  <input type='radio' name='status' className='form-check-input' value='Planned'
                                 onChange={changeHandler}/> Planned
                                 </div>
-                                <div><input type='radio' name='status' className='form-check-input' className='ml-8' value='In-Progress'
+                                <div><input type='radio' name='status' className='form-check-input'  value='In-Progress'
                                 onChange={changeHandler}/> In-Progress
                                 </div>
-                               <div><input type='radio' name='status' className='form-check-input' className='ml-8' value='Done'
+                               <div><input type='radio' name='status' className='form-check-input' value='Done'
                                 onChange={changeHandler}/> Done
                                 </div>
                             </div>
